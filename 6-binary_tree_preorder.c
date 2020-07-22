@@ -6,6 +6,7 @@
 * @func: pointer of the function to be called.
 * Return: always 0.
 */
+
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 {
 
